@@ -1,0 +1,26 @@
+.main-nav {
+
+ 	
+ &__list {
+ 	margin: 0;
+ 	padding: 0;
+ 	list-style:none;
+
+ 	}
+ &__item {
+ 	a {
+ 		display: block;
+ 		padding: 0.5em;
+ 		 @media (min-width: $screen-lg) {
+ 		background-color: #111;
+ 		color: #fff;
+ 		}
+ 	}
+
+ 	@media (min-width: $screen-md) {
+ 		display: inline-block;
+ 		vertical-align: top;
+ 	}
+ 	
+ }
+}

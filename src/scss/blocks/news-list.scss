@@ -1,0 +1,12 @@
+.news-list {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+	 
+	@media (min-width: $screen-lg) {
+ 		width: $screen-lg;
+ 		margin:auto;
+ 	}
+}

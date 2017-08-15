@@ -1,0 +1,27 @@
+.hope {
+	&__inner {
+		@media (min-width: $screen-md) {
+			&:after {
+				content: '';
+				clear: both;
+				display: table;
+			}
+		}
+		@media (min-width: $screen-lg) {
+ 		width: $screen-lg;
+ 		margin:auto;}
+	}
+
+	&__image {
+		@media (min-width: $screen-md) {
+			float: right;
+			width: 50%;
+		}
+	}
+	&__text {
+		@media (min-width: $screen-md) {
+			float: left;
+			width: 50%
+		}
+	}
+}
