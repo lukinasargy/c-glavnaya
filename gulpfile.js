@@ -168,6 +168,7 @@ gulp.task('js', function () {
       dirs.source + '/js/owl.carousel.min.js',
       dirs.source + '/js/script.js',
       dirs.source + '/js/bootstrap.min.js',
+      dirs.source + '/js/bootstrap.js',
       dirs.source + '/js/npm.js',
     ])
     .pipe(plumber({ errorHandler: onError }))
