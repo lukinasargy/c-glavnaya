@@ -3,23 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>RE_Mind</title>
 </head>
 <body>
+@@include('img/sprite-svg.svg')
 <header class="page-header">
   <div class="container">
     
       <div class="page-header__inner">
-        <div class="logo"><img src="" alt=""></div>
+        <div class="logo logo--snake">
+          <svg width="172" height="65" class="logo__pic"><use xlink:href="#logo"></use></svg>
+        </div>
 
         <div class="contacts">
           <div class="contacts__inner">
             <span class="contacts__name">АДРЕС</span>
-            <p class="contacts__address">Адрес: Санкт-Петербург, Большой проспект ВО, д. 21</p>
+            <p class="contacts__address">Санкт-Петербург, Большой проспект ВО, д. 21</p>
           </div>
-          <div class="contacts__inner">
-            <span class="contacts__name">E-MAIL:</span>
+          <div class="contacts__inner-mail">
+            <span class="contacts__name">E-MAIL:</span> <br>
             <a href="mailto:mail@email.ru" class="contacts__mail">mail@email.ru</a>
           </div>
           <div class="contacts__inner">
@@ -29,7 +33,9 @@
           </div>
         </div>
 
-        <a href="#" class="login">личный кабинет</a>
+       
+          <a href="#" class="login__link"><div class="login">личный кабинет</div></a>
+        
       </div>
       <ul class="main-nav nav">
         <li class="main-nav__item"><a href="">Главная</a></li>
@@ -206,8 +212,9 @@
   </div>
 </div>
 </footer>
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+<script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
   <script src="js/script.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

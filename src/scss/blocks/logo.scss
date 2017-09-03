@@ -1,0 +1,21 @@
+
+.logo {
+	width: 28%;
+	display: inline-block;
+	float: left;
+	position: relative;
+	&__pic {
+		position: relative;
+		left:48px;
+	}
+	&--snake:before {
+		    content: '';
+		    position: absolute;
+		    width: 46px;
+		    height: 60px;
+		    background-image: url("../img/snake.png");
+		    top:0px;
+		    left:0px;
+	}
+
+}

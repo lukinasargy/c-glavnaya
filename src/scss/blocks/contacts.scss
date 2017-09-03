@@ -1,0 +1,35 @@
+.contacts {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 58%;
+	font-family: $font-family-second;
+	font-size: $font-size;
+	flex-direction: column;
+	@media (min-width: 1110px) {
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	&__inner {
+		width: 29%;
+
+	}
+	&__name {
+		font-weight: bold;
+	}
+	&__address {
+
+	}
+	&__mail {
+
+	}
+	&__tel {
+		font-family: $font-family-first;
+		font-size: $font-size-second;
+		color: #000;
+	}
+	&__reply {
+
+		color: $text-grey;
+	}
+
+}
